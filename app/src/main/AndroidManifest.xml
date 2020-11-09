@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kinishinai.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sipicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sipicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultActivity"></activity>
+        <activity
+            android:name=".FillUpActivity8"
+            android:label="@string/mla_video4" />
+        <activity
+            android:name=".FillUpActivity7"
+            android:label="@string/mla_journal3" />
+        <activity
+            android:name=".FillUpActivity6"
+            android:label="@string/mla_website2" />
+        <activity
+            android:name=".FillUpActivity5"
+            android:label="@string/mla_book1" />
+        <activity
+            android:name=".FillUpActivity4"
+            android:label="@string/apa_video8" />
+        <activity
+            android:name=".FillUpActivity3"
+            android:label="@string/apa_journal7" />
+        <activity
+            android:name=".FillUpActivity2"
+            android:label="@string/apa_website6" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name=".FillUpActivity"
+            android:label="@string/apa_book5" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
